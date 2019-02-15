@@ -1,3 +1,5 @@
+
+function triangulator(){
 side1 = prompt("enter the value of your first side");
 side2 = prompt("please enter the value of your second side");
 side3 = prompt("please enter the value of your third side");
@@ -26,3 +28,5 @@ alert("this is a scalene triangle")
 else{
 alert("this is not a triangle");
 }
+}
+document.getElementById("click me").onclick = triangulator;
