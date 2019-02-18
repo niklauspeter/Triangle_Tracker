@@ -7,6 +7,9 @@ if
 ((side1+side2)<=side3|| (side2+side3)<=side1|| (side1+side3)<=side2){
 alert("That is not a triangle!");
 }
+else if (side1===0 && side2===0 && side3=== 0){
+  alert("please insert a value");
+}
 else if (side1 === side2 && side1 ===  side3 && side2 === side3){
 alert("this is an equilateral triangle");
 }
