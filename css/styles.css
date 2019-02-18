@@ -4,6 +4,9 @@ h1{
   border-bottom: 17px white;
   border: 2px solid-red;
 }
+h3{
+  padding-top: 20px;
+}
 .sidebar{
   padding: 17px;
   border: 17px white;
@@ -15,7 +18,7 @@ h1{
 }
 
 body {
-  background-image: url("../image/tri.jpg");
+  background-image: url("../image/img.jpg");
   color: white;
   text-align: center;
 }
