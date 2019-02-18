@@ -1,8 +1,25 @@
-form {
+h1{
+  border-radius: 17px;
+  border-style: inset;
+  border-bottom: 17px white;
+  border: 2px solid-red;
+}
+.sidebar{
+
+  padding: 17px;
+  border: 17px white;
+}
+  form {
   text-align: center;
   padding: 17px;
 
 }
+
 #a{
-  background-color: skyblue;
+
+}
+body {
+  background-image: url("../image/tri.jpg");
+  color: white;
+  text-align: center;
 }
