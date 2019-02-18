@@ -5,7 +5,6 @@ h1{
   border: 2px solid-red;
 }
 .sidebar{
-
   padding: 17px;
   border: 17px white;
 }
@@ -15,11 +14,13 @@ h1{
 
 }
 
-#a{
-
-}
 body {
   background-image: url("../image/tri.jpg");
   color: white;
   text-align: center;
+}
+.sidebar {
+  width: 100%;
+  column-count: 3;
+
 }
