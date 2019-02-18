@@ -1,7 +1,13 @@
 function triangulator(){
-var side1 = parseInt(document.getElementById("a").value);
-var side2 = parseInt(document.getElementById("b").value);
-var side3 = parseInt(document.getElementById("c").value);
+  var triSide = [] ;
+triSide.push(parseInt(document.getElementById("a").value));
+triSide.push(parseInt(document.getElementById("b").value));
+triSide.push(parseInt(document.getElementById("c").value));
+
+var side1=triSide[0];
+var side2=triSide[1];
+var side3=triSide[2];
+
 
 if
 ((side1+side2)<=side3|| (side2+side3)<=side1|| (side1+side3)<=side2){
